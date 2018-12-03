@@ -1,0 +1,16 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.12.11",
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.1.0"
+  }
+}
