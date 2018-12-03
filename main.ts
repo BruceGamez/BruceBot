@@ -14,4 +14,10 @@ client.on('message', (msg) => {
     }
 });
 
+client.on('message', (msg) => {
+    if(msg.content == "!channel") {
+        msg.channel.send("https://www.youtube.com/channel/UC9sDAOfrRCFz2C1vFCp6Y_Q");
+    }
+});
+
 client.login(process.env.DISCORD_TOKEN);
